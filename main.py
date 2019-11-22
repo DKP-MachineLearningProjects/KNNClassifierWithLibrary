@@ -43,10 +43,10 @@ for K in [1,5,11]:
         listAccuracy.append(float(correct)/(correct+wrong)*100)
         meanAccuracy=np.average(listAccuracy)
         sd=np.std(listAccuracy)
-    print "\nDetails for K=", K
+    print "\nDetails for K= ", K
     print "List of Accuracy for correct classification in percentage for 10 iteration\n", listAccuracy
-    print "Mean accuracy=", meanAccuracy
-    print "Standard Deviation=",sd 
+    print "Mean accuracy= ", meanAccuracy
+    print "Standard Deviation= ",sd 
 
 #Ramdom OUTPUT
 # Details for K= 1
